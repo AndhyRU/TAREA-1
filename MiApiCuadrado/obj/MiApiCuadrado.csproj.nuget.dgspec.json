@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion IV\\TAREA 1\\MathController\\MathController\\MathController.csproj": {}
+    "D:\\Programacion IV\\TAREA 1\\MiApiCuadrado\\MiApiCuadrado.csproj": {}
   },
   "projects": {
-    "D:\\Programacion IV\\TAREA 1\\MathController\\MathController\\MathController.csproj": {
+    "D:\\Programacion IV\\TAREA 1\\MiApiCuadrado\\MiApiCuadrado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion IV\\TAREA 1\\MathController\\MathController\\MathController.csproj",
-        "projectName": "MathController",
-        "projectPath": "D:\\Programacion IV\\TAREA 1\\MathController\\MathController\\MathController.csproj",
+        "projectUniqueName": "D:\\Programacion IV\\TAREA 1\\MiApiCuadrado\\MiApiCuadrado.csproj",
+        "projectName": "MiApiCuadrado",
+        "projectPath": "D:\\Programacion IV\\TAREA 1\\MiApiCuadrado\\MiApiCuadrado.csproj",
         "packagesPath": "C:\\Users\\Andhy\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion IV\\TAREA 1\\MathController\\MathController\\obj\\",
+        "outputPath": "D:\\Programacion IV\\TAREA 1\\MiApiCuadrado\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
