@@ -1,13 +1,10 @@
-using Microsoft.EntityFrameworkCore;
 using MiApiCuadrado.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("SomeeConnection");
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString)
-);
+builder.Services.AddScoped<DapperContext>(provider => new DapperContext(builder.Configuration));    
 
 
 // Add services to the container.
