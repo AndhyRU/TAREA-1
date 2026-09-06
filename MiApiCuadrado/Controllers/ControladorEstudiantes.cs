@@ -36,7 +36,7 @@ namespace MiApiCuadrado.Controllers
             using var connection = _context.CreateConnection();
 
             var sql = "SELECT * FROM Estudiantes WHERE Id = @Id";
-            var estudiante = await connection.QuerySingleAsync<Estudiante>(sql, new { Id = id });
+            var estudiante = await connection.QuerySingleOrDefaultAsync<Estudiante>(sql, new { Id = id });
 
             if (estudiante == null)
             {

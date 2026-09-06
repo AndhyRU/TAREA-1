@@ -2,8 +2,6 @@ using MiApiCuadrado.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("SomeeConnection");
-
 builder.Services.AddScoped<DapperContext>(provider => new DapperContext(builder.Configuration));    
 
 

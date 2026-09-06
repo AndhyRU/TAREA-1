@@ -11,7 +11,7 @@ namespace MiApiCuadrado.Data
         public DapperContext(IConfiguration configuration)
         {
              _configuration = configuration;
-             _connectionString = _configuration.GetConnectionString("SomeeConnection");
+             _connectionString = _configuration.GetConnectionString("AzureConnection");
         }
 
         public IDbConnection CreateConnection()
