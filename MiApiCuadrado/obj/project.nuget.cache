@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SmtIJne+eT8=",
+  "dgSpecHash": "6iwqJbI/AYQ=",
   "success": true,
-  "projectFilePath": "D:\\Programacion IV\\TAREA-1\\MiapiCuadrado\\MiApiCuadrado.csproj",
+  "projectFilePath": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\MiApiCuadrado.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andhy\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
     "C:\\Users\\Andhy\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

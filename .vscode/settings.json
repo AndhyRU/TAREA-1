@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/05fe59f4-7746-4748-acb3-2456e19d2286/resourceGroups/RG-MiApiCuadrado/providers/Microsoft.Web/sites/tareaapi",
+    "appService.deploySubpath": "MiApiCuadrado"
+}
