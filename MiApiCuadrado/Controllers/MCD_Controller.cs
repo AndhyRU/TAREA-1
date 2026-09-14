@@ -1,4 +1,5 @@
-using Microsoft .AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
+using MiApiCuadrado.Services;
 
 namespace MiApiCuadrado.Controllers
 {
@@ -6,28 +7,22 @@ namespace MiApiCuadrado.Controllers
     [ApiController]
     public class MCD_Controller : ControllerBase
     {
-        // GET: api/MCD/5/10
-        [HttpGet("{a}/{b}")]
-        public ActionResult<int> GetMCD(int a, int b)
-        {
-            if (a <= 0 || b <= 0)
-            {
-                return BadRequest("Los números deben ser mayores que cero.");
-            }
+        private readonly MCDService _mcdService;
 
-            int mcd = CalcularMCD(a, b);
-            return Ok(mcd);
+        public MCD_Controller(MCDService mcdService)
+        {
+            _mcdService = mcdService;
         }
 
-        private int CalcularMCD(int a, int b)
+        [HttpGet]
+        public IActionResult CalcularMCD(int dividendo, int divisor)
         {
-            while (b != 0)
+            int resultado = _mcdService.CalcularMCD(dividendo, divisor);
+
+            return Ok(new
             {
-                int temp = b;
-                b = a % b;
-                a = temp;
-            }
-            return a;
+                mcd = resultado
+            });
         }
     }
 }
