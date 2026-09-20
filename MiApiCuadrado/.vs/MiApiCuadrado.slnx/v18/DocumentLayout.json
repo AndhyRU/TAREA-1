@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\formestudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A59D522-5E54-4905-9738-4CD65EEEEDAF}|..\\MiApiCuadrado.Blazor\\MiApiCuadrado.Blazor.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,6 +29,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormEstudiantes.cs [Design]",
+              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiantes.cs [Design]",
+              "RelativeToolTip": "..\\MiApiCuadrado.WinForms\\FormEstudiantes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T19:03:00.163Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Program.cs",
               "RelativeDocumentMoniker": "..\\MiApiCuadrado.Blazor\\Program.cs",
@@ -33,8 +48,7 @@
               "RelativeToolTip": "..\\MiApiCuadrado.Blazor\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T17:18:46.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T17:18:46.138Z"
             }
           ]
         }
