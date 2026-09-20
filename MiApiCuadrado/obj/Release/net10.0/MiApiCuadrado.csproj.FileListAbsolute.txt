@@ -153,3 +153,9 @@ D:\Programacion IV\TAREA-1\MiApiCuadrado\obj\Release\net10.0\refint\MiApiCuadrad
 D:\Programacion IV\TAREA-1\MiApiCuadrado\obj\Release\net10.0\MiApiCuadrado.pdb
 D:\Programacion IV\TAREA-1\MiApiCuadrado\obj\Release\net10.0\MiApiCuadrado.genruntimeconfig.cache
 D:\Programacion IV\TAREA-1\MiApiCuadrado\obj\Release\net10.0\ref\MiApiCuadrado.dll
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\web.config
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\appsettings.Development.json
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\appsettings.json
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\MiApiCuadrado.deps.json
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\MiApiCuadrado.runtimeconfig.json
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\MiApiCuadrado.staticwebassets.endpoints.json

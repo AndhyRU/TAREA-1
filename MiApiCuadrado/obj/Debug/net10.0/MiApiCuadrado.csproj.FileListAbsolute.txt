@@ -159,3 +159,4 @@ D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Debug\net10.0\publish\appsettings.j
 D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.deps.json
 D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.runtimeconfig.json
 D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.staticwebassets.endpoints.json
+D:\Programacion IV\TAREA-1\MiApiCuadrado\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

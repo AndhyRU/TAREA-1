@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../MiApiCuadrado.Blazor/MiApiCuadrado.Blazor.csproj" Id="4a59d522-5e54-4905-9738-4cd65eeeedaf" />
+  <Project Path="MiApiCuadrado.csproj" />
+</Solution>
