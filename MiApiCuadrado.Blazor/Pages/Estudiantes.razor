@@ -1,0 +1,258 @@
+﻿@page "/estudiantes"
+
+@using MiApiCuadrado.Blazor.Models
+@using MiApiCuadrado.Blazor.Services
+
+@inject EstudianteService EstudianteService
+
+
+<h1>Estudiantes</h1>
+
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <div class="alert alert-info">
+        @mensaje
+    </div>
+}
+
+@if (cargando)
+{
+    <p>Cargando estudiantes...</p>
+}
+else
+{
+    <div class="mb-4">
+
+        <h3>
+            @(editando ? "Modificar estudiante" : "Agregar estudiante")
+        </h3>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-2">
+                <label>Nombre</label>
+                <input class="form-control"
+                       @bind="estudianteActual.Nombre" />
+            </div>
+
+            <div class="col-md-4 mb-2">
+                <label>Apellido</label>
+                <input class="form-control"
+                       @bind="estudianteActual.Apellido" />
+            </div>
+
+            <div class="col-md-4 mb-2">
+                <label>Matrícula</label>
+                <input class="form-control"
+                       @bind="estudianteActual.Matricula" />
+            </div>
+
+            <div class="col-md-4 mb-2">
+                <label>Carrera</label>
+                <input class="form-control"
+                       @bind="estudianteActual.Carrera" />
+            </div>
+
+            <div class="col-md-4 mb-2">
+                <label>Cantidad de materias</label>
+                <input type="number"
+                       class="form-control"
+                       @bind="estudianteActual.CantidadMaterias" />
+            </div>
+
+            <div class="col-md-4 mb-2">
+                <label>Edad</label>
+                <input type="number"
+                       class="form-control"
+                       @bind="estudianteActual.Edad" />
+            </div>
+
+        </div>
+
+        @if (editando)
+        {
+            <button class="btn btn-primary me-2"
+                    @onclick="Actualizar">
+                Actualizar
+            </button>
+
+            <button class="btn btn-secondary"
+                    @onclick="CancelarEdicion">
+                Cancelar
+            </button>
+        }
+        else
+        {
+            <button class="btn btn-success"
+                    @onclick="Crear">
+                Guardar estudiante
+            </button>
+        }
+
+    </div>
+
+    <hr />
+
+    <h3>Estudiantes registrados</h3>
+
+    @if (estudiantes.Count == 0)
+    {
+        <p>No hay estudiantes registrados.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Matrícula</th>
+                    <th>Carrera</th>
+                    <th>Materias</th>
+                    <th>Edad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var estudiante in estudiantes)
+                {
+                    <tr>
+                        <td>@estudiante.Id</td>
+                        <td>@estudiante.Nombre</td>
+                        <td>@estudiante.Apellido</td>
+                        <td>@estudiante.Matricula</td>
+                        <td>@estudiante.Carrera</td>
+                        <td>@estudiante.CantidadMaterias</td>
+                        <td>@estudiante.Edad</td>
+
+                        <td>
+                            <button class="btn btn-warning btn-sm me-1"
+                                    @onclick="() => PrepararEdicion(estudiante)">
+                                Editar
+                            </button>
+
+                            <button class="btn btn-danger btn-sm"
+                                    @onclick="() => Eliminar(estudiante.Id)">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+    }
+}
+
+@code {
+
+    private List<Estudiante> estudiantes = new();
+
+    private Estudiante estudianteActual = new();
+
+    private bool cargando = true;
+
+    private bool editando = false;
+
+    private string mensaje = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarEstudiantes();
+    }
+
+    private async Task CargarEstudiantes()
+    {
+        cargando = true;
+
+        estudiantes = await EstudianteService.ObtenerEstudiantes();
+
+        cargando = false;
+    }
+
+    private async Task Crear()
+    {
+        mensaje = string.Empty;
+
+        var resultado =
+            await EstudianteService.CrearEstudiante(estudianteActual);
+
+        if (resultado)
+        {
+            await CargarEstudiantes();
+
+            estudianteActual = new Estudiante();
+
+            mensaje = "Estudiante guardado correctamente.";
+        }
+        else
+        {
+            mensaje = "No se pudo guardar el estudiante.";
+        }
+    }
+
+    private void PrepararEdicion(Estudiante estudiante)
+    {
+        editando = true;
+
+        estudianteActual = new Estudiante
+        {
+            Id = estudiante.Id,
+            Nombre = estudiante.Nombre,
+            Apellido = estudiante.Apellido,
+            Matricula = estudiante.Matricula,
+            Carrera = estudiante.Carrera,
+            CantidadMaterias = estudiante.CantidadMaterias,
+            Edad = estudiante.Edad
+        };
+    }
+
+    private async Task Actualizar()
+    {
+        mensaje = string.Empty;
+
+        var resultado =
+            await EstudianteService.ActualizarEstudiante(
+                estudianteActual.Id,
+                estudianteActual
+            );
+
+        if (resultado)
+        {
+            await CargarEstudiantes();
+
+            estudianteActual = new Estudiante();
+
+            editando = false;
+
+            mensaje = "Estudiante actualizado correctamente.";
+        }
+        else
+        {
+            mensaje = "No se pudo actualizar el estudiante.";
+        }
+    }
+
+    private void CancelarEdicion()
+    {
+        estudianteActual = new Estudiante();
+
+        editando = false;
+    }
+
+    private async Task Eliminar(int id)
+    {
+        var resultado =
+            await EstudianteService.EliminarEstudiante(id);
+
+        if (resultado)
+        {
+            await CargarEstudiantes();
+        }
+    }
+}

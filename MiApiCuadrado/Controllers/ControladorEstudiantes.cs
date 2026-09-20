@@ -44,7 +44,116 @@ namespace MiApiCuadrado.Controllers
             }
 
             return Ok(estudiante);
-        }   
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Estudiante>> CrearEstudiante(Estudiante estudiante)
+        {
+            using var connections = _context.CreateConnection();
+            var sql = @"
+
+              INSERT INTO Estudiantes
+                (
+                    Nombre,
+                    Apellido,
+                    Matricula,
+                    Carrera,
+                    CantidadMaterias,
+                    Edad
+                )
+                VALUES
+                (
+                    @Nombre,
+                    @Apellido,
+                    @Matricula,
+                    @Carrera,
+                    @CantidadMaterias,
+                    @Edad
+                );
+
+                SELECT CAST(SCOPE_IDENTITY() AS INT);    
+             ";
+
+            var id = await connections.ExecuteScalarAsync<int>(sql, estudiante);
+            estudiante.Id = id;
+
+            return CreatedAtAction(
+                nameof(GetEstudiante),
+                new { id = estudiante.Id },
+                estudiante
+            );
+
+
+
+        }
+
+        [HttpPut ("{id}")]
+        public async Task<IActionResult> ActualizarEstudiante ( int id, Estudiante estudiante)
+        {
+            using var connection = _context.CreateConnection();
+            var sqlBuscar = @"
+                SELECT Id
+                FROM Estudiantes
+                WHERE Id = @Id";
+
+            var existe = await connection.QuerySingleOrDefaultAsync<int?>(
+                sqlBuscar,
+                new { Id = id }
+            );
+
+            if (existe == null)
+            {
+                return NotFound(new
+                {
+                    mensaje = "Estudiante no encontrado."
+                });
+            }
+
+            var sqlActualizar = @"
+                UPDATE Estudiantes
+                SET Nombre = @Nombre,
+                    Apellido = @Apellido,
+                    Matricula = @Matricula,
+                    Carrera = @Carrera,
+                    CantidadMaterias = @CantidadMaterias,
+                    Edad = @Edad
+                WHERE Id = @Id";
+
+            estudiante.Id = id;
+
+            await connection.ExecuteAsync(
+                sqlActualizar,
+                estudiante
+            );
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> EliminarEstudiante(int id)
+        {
+            using var connection = _context.CreateConnection();
+
+            var sql = @"
+                DELETE FROM Estudiantes
+                WHERE Id = @Id";
+
+            var filasAfectadas = await connection.ExecuteAsync(
+                sql,
+                new { Id = id }
+            );
+
+            if (filasAfectadas == 0)
+            {
+                return NotFound(new
+                {
+                    mensaje = "Estudiante no encontrado."
+                });
+            }
+
+            return NoContent();
+        }
+
 
     }
 
