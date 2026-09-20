@@ -13,13 +13,16 @@ builder.Services.AddCors(options =>
         policy
 
               .AllowAnyOrigin()
-              .AllowAnyOrigin()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
     
 builder.Services.AddScoped<MCDService>();
 
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 // Add services to the container.
 
@@ -30,6 +33,13 @@ builder.Services.AddOpenApi();
 
 
 var app = builder.Build();
+
+// Después de construir la app (var app = builder.Build();)
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

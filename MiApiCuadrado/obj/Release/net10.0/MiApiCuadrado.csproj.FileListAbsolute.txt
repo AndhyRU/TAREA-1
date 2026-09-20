@@ -159,3 +159,7 @@ D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\appsettings
 D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\MiApiCuadrado.deps.json
 D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\MiApiCuadrado.runtimeconfig.json
 D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\publish\MiApiCuadrado.staticwebassets.endpoints.json
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programacion IV\TAREA-1\MiApiCuadrado\bin\Release\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programacion IV\TAREA-1\MiApiCuadrado\obj\Release\net10.0\staticwebassets.upToDateCheck.txt

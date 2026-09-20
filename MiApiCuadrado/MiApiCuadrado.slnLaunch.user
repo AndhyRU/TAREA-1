@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\MiApiCuadrado.Blazor\\MiApiCuadrado.Blazor.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MiApiCuadrado.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

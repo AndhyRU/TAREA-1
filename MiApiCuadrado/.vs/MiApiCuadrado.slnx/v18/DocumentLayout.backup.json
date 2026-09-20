@@ -3,24 +3,7 @@
   "WorkspaceRootPath": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A59D522-5E54-4905-9738-4CD65EEEEDAF}|..\\MiApiCuadrado.Blazor\\MiApiCuadrado.Blazor.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.blazor\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A59D522-5E54-4905-9738-4CD65EEEEDAF}|..\\MiApiCuadrado.Blazor\\MiApiCuadrado.Blazor.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A59D522-5E54-4905-9738-4CD65EEEEDAF}|..\\MiApiCuadrado.Blazor\\MiApiCuadrado.Blazor.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.blazor\\services\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A59D522-5E54-4905-9738-4CD65EEEEDAF}|..\\MiApiCuadrado.Blazor\\MiApiCuadrado.Blazor.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.blazor\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2849834C-CAF9-A415-B441-6ECA710C2A1D}|MiApiCuadrado.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2849834C-CAF9-A415-B441-6ECA710C2A1D}|MiApiCuadrado.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2849834C-CAF9-A415-B441-6ECA710C2A1D}|MiApiCuadrado.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2849834C-CAF9-A415-B441-6ECA710C2A1D}|MiApiCuadrado.csproj|solutionrelative:models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,84 +13,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\.gitignore",
-              "RelativeDocumentMoniker": "..\\MiApiCuadrado.Blazor\\.gitignore",
-              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\.gitignore*",
-              "RelativeToolTip": "..\\MiApiCuadrado.Blazor\\.gitignore*",
-              "ViewState": "AgIAAMgBAAAAAAAAAAAAAOEBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-20T03:25:20.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EstudianteService.cs",
-              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Services\\EstudianteService.cs",
-              "RelativeDocumentMoniker": "..\\MiApiCuadrado.Blazor\\Services\\EstudianteService.cs",
-              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Services\\EstudianteService.cs",
-              "RelativeToolTip": "..\\MiApiCuadrado.Blazor\\Services\\EstudianteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T02:44:41.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Models\\Estudiante.cs",
-              "RelativeDocumentMoniker": "..\\MiApiCuadrado.Blazor\\Models\\Estudiante.cs",
-              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Models\\Estudiante.cs",
-              "RelativeToolTip": "..\\MiApiCuadrado.Blazor\\Models\\Estudiante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T02:44:10.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Program.cs",
               "RelativeDocumentMoniker": "..\\MiApiCuadrado.Blazor\\Program.cs",
               "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.Blazor\\Program.cs",
               "RelativeToolTip": "..\\MiApiCuadrado.Blazor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T02:39:26.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T20:31:23.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\Models\\Estudiante.cs",
-              "RelativeDocumentMoniker": "Models\\Estudiante.cs",
-              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\Models\\Estudiante.cs",
-              "RelativeToolTip": "Models\\Estudiante.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T20:26:48.908Z"
+              "WhenOpened": "2026-09-20T17:18:46.138Z",
+              "EditorCaption": ""
             }
           ]
         }

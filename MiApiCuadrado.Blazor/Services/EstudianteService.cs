@@ -27,19 +27,14 @@ namespace MiApiCuadrado.Blazor.Services
             );
         }
 
-        public async Task<Estudiante?> CrearEstudiante(Estudiante estudiante)
+        public async Task<bool> CrearEstudiante(Estudiante estudiante)
         {
             var response = await _http.PostAsJsonAsync(
                 "api/ControladorEstudiantes",
                 estudiante
             );
 
-            if (!response.IsSuccessStatusCode)
-            {
-                return null;
-            }
-
-            return await response.Content.ReadFromJsonAsync<Estudiante>();
+            return response.IsSuccessStatusCode;
         }
 
         public async Task<bool> ActualizarEstudiante(
