@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            SuspendLayout();
+            // 
+            // FormEstudiantes
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            ClientSize = new Size(1084, 611);
+            Name = "FormEstudiantes";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Gestión de Estudiantes";
+            ResumeLayout(false);
         }
 
         #endregion

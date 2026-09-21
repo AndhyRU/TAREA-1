@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiApiCuadrado.WinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4da86d45a3b3c0c993bb362aa915d4c59996c0f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d71975bfae2651dc0f9e4eb4db842eaa6795b006")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiApiCuadrado.WinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiApiCuadrado.WinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

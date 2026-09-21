@@ -11,6 +11,12 @@ namespace MiApiCuadrado.WinForms
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+
+            var HttpClient = new HttpClient
+            {
+                BaseAddress = new Uri("https://atreaapi-cdbcfmcffuaec7hf.centralus-01.azurewebsites.net/")
+            };
+
             Application.Run(new FormEstudiantes());
         }
     }
