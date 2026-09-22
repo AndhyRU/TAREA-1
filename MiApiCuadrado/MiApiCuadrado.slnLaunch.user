@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "MiApiCuadrado.csproj",
+        "Path": "..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj",
         "Action": "Start"
       }
     ]

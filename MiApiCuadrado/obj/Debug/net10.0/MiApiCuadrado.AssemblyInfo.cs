@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiApiCuadrado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfba9c70e0b447d15bf547f0592fb99560ca6d51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bddf91b708eb55bfb46bd122f54a97b6864d81c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiApiCuadrado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiApiCuadrado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
