@@ -126,7 +126,7 @@
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(6, 253);
+            btnGuardar.Location = new Point(23, 253);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(69, 26);
             btnGuardar.TabIndex = 10;
@@ -136,7 +136,7 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(180, 256);
+            btnCancelar.Location = new Point(205, 253);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(75, 23);
             btnCancelar.TabIndex = 11;
@@ -164,7 +164,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(309, 294);
             Controls.Add(txtCarrera);
             Controls.Add(lblCarrera);
             Controls.Add(btnCancelar);

@@ -3,7 +3,10 @@
   "WorkspaceRootPath": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\formestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\formestudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\formestudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\formestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
@@ -13,6 +16,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\services\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547DF76B-D3F0-49A3-B58C-4E1DF5608B94}|..\\MiApiCuadrado.WinForms\\MiApiCuadrado.WinForms.csproj|d:\\programacion iv\\tarea-1\\miapicuadrado.winforms\\formestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,33 +40,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormEstudiantes.cs",
+              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "RelativeToolTip": "..\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAArwBoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:52:54.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormEstudiantes.cs [Design]",
+              "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\FormEstudiantes.cs",
+              "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiantes.cs [Design]",
+              "RelativeToolTip": "..\\MiApiCuadrado.WinForms\\FormEstudiantes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:46:22.422Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormEstudiante.cs",
               "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiante.cs",
               "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\FormEstudiante.cs",
               "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiante.cs",
               "RelativeToolTip": "..\\MiApiCuadrado.WinForms\\FormEstudiante.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAqwLUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAqwLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T18:03:00.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EstudianteService.cs",
               "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\Services\\EstudianteService.cs",
               "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\Services\\EstudianteService.cs",
               "ToolTip": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\Services\\EstudianteService.cs",
               "RelativeToolTip": "..\\MiApiCuadrado.WinForms\\Services\\EstudianteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T18:21:22.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormEstudiante.Designer.cs",
               "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiante.Designer.cs",
               "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\FormEstudiante.Designer.cs",
@@ -73,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormEstudiante.cs [Design]",
               "DocumentMoniker": "D:\\Programacion IV\\TAREA-1\\MiApiCuadrado.WinForms\\FormEstudiante.cs",
               "RelativeDocumentMoniker": "..\\MiApiCuadrado.WinForms\\FormEstudiante.cs",

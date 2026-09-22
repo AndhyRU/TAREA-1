@@ -277,5 +277,10 @@ namespace MiApiCuadrado.WinForms
                 MostrarEstudiantes(resultado);
             }
         }
+
+        private void dgvEstudiantes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
