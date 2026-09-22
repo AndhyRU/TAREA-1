@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MiApiCuadrado.WinForms.Services
 {
-    internal class EstudianteService
+    public class EstudianteService
     {
         private readonly HttpClient _httpClient;
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MiApiCuadrado.WinForms.Models
 {
-    internal class Estudiante
+    public class Estudiante
     {
             public int Id { get; set; }
 

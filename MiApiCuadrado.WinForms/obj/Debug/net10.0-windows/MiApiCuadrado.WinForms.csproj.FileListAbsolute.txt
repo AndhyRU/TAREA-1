@@ -16,3 +16,4 @@ D:\Programacion IV\TAREA-1\MiApiCuadrado.WinForms\obj\Debug\net10.0-windows\MiAp
 D:\Programacion IV\TAREA-1\MiApiCuadrado.WinForms\obj\Debug\net10.0-windows\MiApiCuadrado.WinForms.genruntimeconfig.cache
 D:\Programacion IV\TAREA-1\MiApiCuadrado.WinForms\obj\Debug\net10.0-windows\ref\MiApiCuadrado.WinForms.dll
 D:\Programacion IV\TAREA-1\MiApiCuadrado.WinForms\obj\Debug\net10.0-windows\MiApiCua.0B363A0A.Up2Date
+D:\Programacion IV\TAREA-1\MiApiCuadrado.WinForms\obj\Debug\net10.0-windows\MiApiCuadrado.WinForms.FormEstudiante.resources

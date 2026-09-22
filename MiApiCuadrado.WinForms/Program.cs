@@ -1,3 +1,6 @@
+using System.Net.Http;
+using MiApiCuadrado.WinForms.Services;
+
 namespace MiApiCuadrado.WinForms
 {
     internal static class Program
@@ -17,7 +20,10 @@ namespace MiApiCuadrado.WinForms
                 BaseAddress = new Uri("https://atreaapi-cdbcfmcffuaec7hf.centralus-01.azurewebsites.net/")
             };
 
-            Application.Run(new FormEstudiantes());
+            var estudianteService =
+               new EstudianteService(HttpClient);
+
+            Application.Run(new FormEstudiantes(estudianteService));
         }
     }
 }
